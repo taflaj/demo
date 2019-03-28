@@ -10,8 +10,8 @@ def dig(source, dest):
         raise TypeError('Array contains a non-integer element.')
 
 def flatten(an_array):
-    """ Flattens an array
-    Input: an array of integers
+    """ Flattens an array.
+    Input: an array of integers.
     Output: an array containing all elements and subelements of the input array.
     """
     to_array = []   # initialize returned array
